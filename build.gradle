@@ -8,18 +8,10 @@ buildscript{
     }
     dependencies{
         classpath "io.realm:realm-gradle-plugin:10.11.1"
-        classpath 'com.android.tools.build:gradle:7.0.4'
+        classpath 'com.android.tools.build:gradle:7.2.2'
     }
 }
 
-plugins {
-    id 'com.android.application' version '7.2.2' apply false
-    id 'com.android.library' version '7.2.2' apply false
-//    id 'realm-android'
-}
-
-//apply plugin: 'com.android.application'
-//apply plugin: 'realm-android'
 
 task clean(type: Delete) {
     delete rootProject.buildDir

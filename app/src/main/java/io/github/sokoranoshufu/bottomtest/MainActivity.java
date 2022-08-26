@@ -11,7 +11,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import io.github.sokoranoshufu.bottomtest.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
 
     private ActivityMainBinding binding;
 
@@ -34,3 +34,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+
